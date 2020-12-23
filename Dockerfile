@@ -10,4 +10,3 @@ ENV APACHE_LOG_DIR /var/log/apache2
 EXPOSE 80
 ADD ["index.html","/var/www/html/"]
 
-ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
