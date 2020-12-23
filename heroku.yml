@@ -1,4 +1,4 @@
 build:
-   docker:
-      web:docker-compose     
+  docker:
+    web: docker-compose     
 
