@@ -2,8 +2,7 @@ const express = require('express');
 // App
 const app = express();
 path = require("path"),
-    app = express(),
-    puerto = 3000;
+
 
 app.get('/', (peticion, respuesta) => {
     // Podemos acceder a la petición HTTP
