@@ -10,26 +10,46 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <style>
 
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+        #jumbotron{
+
+            background-color: azure;
+        }
+    </style>
+    
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h4 class="text-white">Collapsed content</h4>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+<div id ="jumbotron" class="jumbotron text-center">
+  <h1>Welcome </h1>
+  <p>Usando heroku para deploy de docker container  </p> 
 </div>
   
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Column 1</h3>
+      <h3>Learn more thinks </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
     <div class="col-sm-4">
-      <h3>Column 2</h3>
+      <h3>Estructura</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
     <div class="col-sm-4">
-      <h3>Column 3</h3>        
+      <h3>Analyse</h3>        
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
